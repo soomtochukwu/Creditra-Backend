@@ -66,6 +66,16 @@ Optional later: `DATABASE_URL`, `REDIS_URL`, `HORIZON_URL`, etc.
 
 - `src/index.ts` — App entry, middleware, route mounting
 - `src/routes/` — credit and risk route handlers
+- `docs/` — Documentation and guidelines
+
+## Security
+
+Security is a priority for Creditra. Before deploying or contributing:
+
+- Review the [Backend Security Checklist](docs/security-checklist-backend.md)
+- Ensure all security requirements are met
+- Run `npm audit` to check for vulnerabilities
+- Maintain minimum 95% test coverage
 
 ## Merging to remote
 
