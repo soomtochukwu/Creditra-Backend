@@ -1,3 +1,4 @@
+/// <reference types="vitest/globals" />
 import express, { Express } from "express";
 import request from "supertest";
 import { vi } from "vitest";
